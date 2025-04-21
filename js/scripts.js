@@ -1,6 +1,5 @@
 /* 
 Inspired from: https://tympanus.net/codrops/2013/08/28/transitions-for-off-canvas-navigations/
-
 there are still some quirks for animation 3, 6, 7, 8 & 14 
 as they do not animate back gracefully  
 (those are the navs in the div with class st-pusher)
@@ -18,8 +17,6 @@ for (var i = 0; i < click.length; i++) {
 }
 
 pusher.addEventListener('click', closeMenu);
-
-
 
 function addClass(e) {
   // to get the correct effect
